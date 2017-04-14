@@ -1,5 +1,7 @@
 # Cosmic Emu
 
+![Emu](emu2.png)
+
 ## Description
 
 The Cosmic Emu produces predictions for the matter power spectrum based on eight cosmological parameters: omega_m, omega_w, sigma_8, h, n_s

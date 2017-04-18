@@ -333,7 +333,7 @@ int main(int argc, char **argv) {
     
     // Read inputs from a file
     // File should be space delimited with 9 numbers on each line
-    // '\omega_m'   '\omega_b'   '\sigma_8'   'h'   'n_s'   'w_0'   'fw'   '\omega_{\nu}'   'z'
+    // '\omega_m'   '\omega_b'   '\sigma_8'   'h'   'n_s'   'w_0'   'w_a'   '\omega_{\nu}'   'z'
     if((infile = fopen("xstar.dat","r"))==NULL) {
         printf("Cannot find inputs.\n");
         exit(1);

@@ -28,7 +28,7 @@ Lower | Parameter | Upper
 0.3 | -(w_0+w_a)^(1/4) | 1.29
 0.0 | z | 2.02
  
-The code will not produce an spectrum for parameters outside these ranges.
+The code will not produce an spectrum for parameters outside these ranges. Note that the range for w_a depends on w_0.
 
 ## Copyright and License
 

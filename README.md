@@ -8,7 +8,7 @@ The Cosmic Emu produces predictions for the matter power spectrum based on eight
 
 ## Getting Started
 
-The Cosmic Emu requires the GNU Scientific Library (GSL). The makefile for both spectrum emulators includes lines to point to your installation of the GSL. The Cosmic Emu can produce predictions for the dark matter spectrum (P_cb) and the dark matter plus neutrino spectrum (P_tot). For each spectrum emulator, there are two files in addition to the makefile: emu.c and params.h. Simply type "make" at the command line to compile. The resulting program emu.exe is intended to be a demonstration of how to use the emulator. This program looks for a file called "xstar.dat" which should have nine space-delimited numbers on each line:
+The Cosmic Emu requires the GNU Scientific Library (GSL). The makefile for both spectrum emulators includes lines to point to your installation of the GSL. The Cosmic Emu can produce predictions for the dark matter spectrum (P_cb) and the dark matter plus neutrino spectrum (P_tot). For each spectrum emulator, there are two files in addition to the makefile: emu.c and params.h. Simply type "make" at the command line to compile. The resulting program emu.exe is intended to be a demonstration of how to use the emu() and emuInit() functions. This program looks for a file called "xstar.dat" which should have nine space-delimited numbers on each line:
 
 omega_m   omega_b   sigma_8   h   n_s   w_0   w_a   omega_nu   z
 

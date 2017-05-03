@@ -12,9 +12,9 @@ The Cosmic Emu requires the GNU Scientific Library (GSL). The makefile for both 
 
 omega_m   omega_b   sigma_8   h   n_s   w_0   w_a   omega_nu   z
 
+Running "emu.exe" will produce a prediction, in it's own file, for each line in xstar.dat. 
 
-
-Running "emu.exe" will produce a prediction for each line in xstar.dat. The ranges for the parameters are
+The ranges for the parameters are
 
 Lower | Parameter | Upper
 ------|-----------|------
@@ -25,6 +25,7 @@ Lower | Parameter | Upper
 0.85  | n_s       | 1.05
 -1.3  | w_0       | -0.7
 0.3   | -(w_0+w_a)^(1/4) | 1.29
+0.0   | omega_nu  | 0.01
 0.0   | z         | 2.02
  
 The code will not produce a spectrum for parameters outside these ranges. Note that the range for w_a depends on w_0.

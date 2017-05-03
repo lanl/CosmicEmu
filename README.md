@@ -12,7 +12,7 @@ The Cosmic Emu requires the GNU Scientific Library (GSL). The makefile for both 
 
 omega_m   omega_b   sigma_8   h   n_s   w_0   w_a   omega_nu   z
 
-Running "emu.exe" will produce a prediction, in it's own file, for each line in xstar.dat. 
+Running "emu.exe" will produce a prediction, in its own file, for each line in xstar.dat (e.g. if xstar.dat has 10 lines of inputs, the code will produce 10 output files, each with a prediction for the corresponding line). 
 
 The ranges for the parameters are
 

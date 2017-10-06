@@ -317,7 +317,7 @@ int main(int argc, char **argv) {
     // Intensive use of the emulator should probably use something smarter.
     
     // Parameter order
-    // '\omega_m'   '\omega_b'   '\sigma_8'   'h'   'n_s'   'w_0'   'fw'   '\omega_{\nu}' 'z'
+    // '\omega_m'   '\omega_b'   '\sigma_8'   'h'   'n_s'   'w_0'   'fw'   '\omega_{\nu}'   'z'
     
     double xstar[9]; // = {0.1335, 0.02258, 0.8, 0.71, 0.963, -1.0, 0.0, 0.0, .75};
     double ystar[351];

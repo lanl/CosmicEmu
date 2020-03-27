@@ -32,4 +32,4 @@ The code will not produce a spectrum for parameters outside these ranges. Note t
 
 ## Copyright and License
 
-Los Alamos National Security, LLC owns the copyright for this code. Please see LICENSE for copyright details.
+Triad National Security, LLC owns the copyright for this code. Please see LICENSE for copyright details.

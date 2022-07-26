@@ -4,7 +4,12 @@
 
 ## Description
 
-The Cosmic Emu produces predictions for the matter power spectrum based on eight cosmological parametersand redshift. These predictions, based on Gaussian process emulation, approximate the power spectra that would be obtained from large dark matter simulations. The details are provide in "The Mira-Titan Universe: Precision Predictions for Dark Energy Surveys" (https://arxiv.org/abs/1508.02654) and an upcoming paper.
+The Cosmic Emu produces predictions for the matter power spectrum based on eight cosmological parameters and redshift. These predictions, based on Gaussian process emulation, approximate the power spectra that would be obtained from large dark matter simulations. Details as follows:
+* The simulation and design details are provide in [_The Mira-Titan Universe: Precision Predictions for Dark Energy Surveys_](https://iopscience.iop.org/article/10.3847/0004-637X/820/2/108/pdf). 
+* The emulator construction and performance details for the first power spectrum emulator based on a subset of 36 cosmological models, available in the `Deprecated-2017-Mira-Titan-II` folder, is described in [_The Mira-Titan Universe II. Matter Power Spectrum Emulation_](https://iopscience.iop.org/article/10.3847/1538-4357/aa86a9/pdf).
+* The updated final power spectrum emulator based on the full simulation suite, available in the `Current-2022-Mira-Titan-IV` folder, is described in [_The Mira-Titan Universe IV. High Precision Power Spectrum Emulation_](https://arxiv.org/abs/2207.12345). 
+
+We recommend using the current 2022 emulator rather than the deprecated 2017 version. Note that prior to July 2022, the only Cosmic Emu version available on this site was the 2017 Mira-Titan II version.
 
 ## Getting Started
 
